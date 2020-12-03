@@ -1,5 +1,6 @@
+
 server:
-  port: 8700
+  port: 8900
 eureka:
   client:
     service-url:
@@ -9,4 +10,4 @@ eureka:
 
 spring:
   application:
-    name: feign
+    name: base-feign-consumer
